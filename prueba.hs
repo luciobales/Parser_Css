@@ -30,6 +30,9 @@ compararChars x y =
                   if x == y then True 
                   else False
 
+
+                  
+
 typeMatch :: [Char] -> [Char]
 typeMatch xs
         | xs == "clase" = "Clase"
