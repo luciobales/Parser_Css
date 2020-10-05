@@ -15,4 +15,4 @@ main = do
     -- Imprimo el contenido que almacene en 'contents'
     
     hClose handle
-    -- Paso mi manipulador por la funcion 'hClose' para cerrar el fichero.
+    -- Paso mi manipulador por la funcion 'hClose' para cerrar el archivo.

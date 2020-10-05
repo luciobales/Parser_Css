@@ -9,7 +9,7 @@ main = do
 
     (tempName, tempHandle) <- openTempFile "." "temp"
     -- Creo un archivo temporal en base al original...
-    -- esto es para poder trabajar de manera segura sin perder el contenido original en el fichero 'todo.txt'
+    -- esto es para poder trabajar de manera segura sin perder el contenido original en el archivo 'todo.txt'
 
     contents <- hGetContents handle
     -- Asigno a contents el contenido del archivo 'todo.txt'
@@ -49,10 +49,10 @@ main = do
     -- y asignamos el contenido a tempHandle
 
     hClose handle
-    -- Cerramos el fichero original.
+    -- Cerramos el archivo original.
     hClose tempHandle
-    -- Cerramos el fichero temporal.
+    -- Cerramos el archivo temporal.
     removeFile "todo.txt"
-    -- Borramos el fichero original.
+    -- Borramos el archivo original.
     renameFile tempName "todo.txt"
-    -- Renombramos el fichero temporal a 'todo.txt'
+    -- Renombramos el archivo temporal a 'todo.txt'
