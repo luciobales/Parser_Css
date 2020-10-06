@@ -1,0 +1,29 @@
+Codigo Entrada:
+Etiqueta: h1 | Propiedades: [(Color: #5d84we) , (Tamaño Fuente: 25px), (margen: 10px)]
+
+Css Salida: 
+h1 {
+    color: #5d84we;
+    font-size: 25px;
+    margin: 10px;
+}
+
+Codigo Entrada:
+Etiqueta: div | Clase: Contenedor | Propiedades: [(Margin 0px 50px 30px 5px) , (Padding: 25px 50px), (Border 1px solid red)]
+
+Css Salida: 
+div.Contenedor {
+    margin: 0px 50px 30px 5px;
+    padding: 25px 50px;
+    border: 1px solid red;
+}
+
+Ejemplo con el HTML y css que esta en la carpeta PaginaWeb
+
+Codigo Entrada:
+Etiqueta: h1 | Propiedades: [(Color: red)]
+
+Css Salida: 
+h1 {
+    color: red;
+}
